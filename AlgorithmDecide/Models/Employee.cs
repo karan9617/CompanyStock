@@ -15,6 +15,7 @@ namespace AlgorithmDecide.Models
 
         public int Salary { get; set; }
 
-      
+
+        public string Gender { get; set; }
     }
 }

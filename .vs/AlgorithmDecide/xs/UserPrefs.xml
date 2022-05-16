@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{95DF73E4-A2BB-42AE-A3E6-49D3E9490DB5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmDecide/Migrations/ApplicationDbContextForCompaniesMigrations/ApplicationDbContextForCompaniesModelSnapshot.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmDecide/Data/ApplicationDbContext.cs">
     <Files>
       <File FileName="AlgorithmDecide/Startup.cs" Line="29" Column="67" IsPinned="True" />
       <File FileName="AlgorithmDecide/Controllers/HomeController.cs" Line="42" Column="60" />
@@ -9,12 +9,6 @@
       <File FileName="AlgorithmDecide/Models/Employee.cs" Line="10" Column="32" />
       <File FileName="AlgorithmDecide/Data/ApplicationDbContext.cs" Line="7" Column="45" />
       <File FileName="AlgorithmDecide/Models/CompaniesInfo.cs" Line="13" Column="21" />
-      <File FileName="AlgorithmDecide/Data/ApplicationDbContextForCompanies.cs" Line="1" Column="1" />
-      <File FileName="AlgorithmDecide/Migrations/ApplicationDbContextForCompaniesMigrations/20220516212434_CompaniesListDateModify.cs" Line="1" Column="1" />
-      <File FileName="AlgorithmDecide/Migrations/ApplicationDbContextModelSnapshot.cs" Line="1" Column="1" />
-      <File FileName="AlgorithmDecide/Migrations/20220516174007_AddStocksUsername.cs" Line="1" Column="1" />
-      <File FileName="AlgorithmDecide/Migrations/ApplicationDbContextForCompaniesMigrations/20220516204634_CompaniesList.cs" Line="20" Column="74" />
-      <File FileName="AlgorithmDecide/Migrations/ApplicationDbContextForCompaniesMigrations/ApplicationDbContextForCompaniesModelSnapshot.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,11 +16,11 @@
           <Node name="AlgorithmDecide" expanded="True">
             <Node name="AlgorithmDecide" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="ApplicationDbContext.cs" selected="True" />
+              </Node>
               <Node name="Migrations" expanded="True">
-                <Node name="ApplicationDbContextForCompaniesMigrations" expanded="True">
-                  <Node name="ApplicationDbContextForCompaniesModelSnapshot.cs" selected="True" />
-                </Node>
+                <Node name="ApplicationDbContextForCompaniesMigrations" expanded="True" />
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Properties" expanded="True" />
