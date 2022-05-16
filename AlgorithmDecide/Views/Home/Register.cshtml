@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = "../Shared/_LayoutForMainPage.cshtml";
+    ViewData["title"] = "Register Page";
+}
+<h2>Register component</h2>
+@using (Html.BeginForm("Register", "Home", FormMethod.Post))
+{
+ <p>First name</p><input type="text" name="firstName" />
+
+<br />
+<p>lastName</p><input type="text" name="lastName" />
+
+<br />
+
+<p>Address</p><input type="text" name="address" />
+
+<br />
+
+<p>Salary</p><input type="text" name="salary" />
+
+<br />
+
+<input type="submit" value="REGISTER" />
+
+<br />
+}
