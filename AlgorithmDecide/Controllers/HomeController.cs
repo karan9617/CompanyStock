@@ -31,6 +31,7 @@ namespace AlgorithmDecide.Controllers
         [HttpPost]
         public IActionResult FormForLogin(string username, string password)
         {
+            
             Employee employeeToFind1 = applicationDbContext.Employees.FirstOrDefault(employee => employee.FirstName == username);
             if (employeeToFind1 == null)
             {
@@ -52,7 +53,9 @@ namespace AlgorithmDecide.Controllers
             employeeToInsert.Address = Address;
             employeeToInsert.Salary = Int32.Parse(salary);
             applicationDbContext.Add(employeeToInsert);
+           
             await applicationDbContext.SaveChangesAsync();
+
 
             return View();
         }

@@ -15,7 +15,7 @@ namespace AlgorithmDecide.Models
 
         public int Salary { get; set; }
 
-
-        public string Gender { get; set; }
+        public string Gender { get; set; } = "male";
+        public virtual Insurance EmployeeInsurance { get; set; }
     }
 }

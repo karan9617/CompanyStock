@@ -34,7 +34,7 @@ namespace AlgorithmDecide.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Gender")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("nvarchar(max)").HasDefaultValue("Male");
 
                     b.Property<string>("LastName")
                         .HasColumnType("nvarchar(max)");

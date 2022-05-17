@@ -10,7 +10,8 @@ namespace AlgorithmDecide.Migrations
                 name: "Gender",
                 table: "Employees",
                 type: "nvarchar(max)",
-                nullable: true);
+                nullable: true,
+                defaultValue: "male");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
