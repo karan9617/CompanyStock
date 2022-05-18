@@ -6615,7 +6615,7 @@
       "outputPath": "/Users/karanvishwakarma/Projects/AlgorithmDecide/AlgorithmDecide/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/karanvishwakarma/.nuget/NuGet/NuGet.Config"
+        "/Users/karanvishwakarma/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

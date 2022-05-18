@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{95DF73E4-A2BB-42AE-A3E6-49D3E9490DB5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmDecide/Migrations/20220516232638_DefaultValueGender.Designer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmDecide/Views/Main/Index.cshtml">
     <Files>
       <File FileName="AlgorithmDecide/Startup.cs" Line="29" Column="67" IsPinned="True" />
-      <File FileName="AlgorithmDecide/Controllers/HomeController.cs" Line="34" Column="13" />
-      <File FileName="AlgorithmDecide/Controllers/EmployeeController.cs" Line="36" Column="22" />
-      <File FileName="AlgorithmDecide/Controllers/MainController.cs" Line="14" Column="27" />
-      <File FileName="AlgorithmDecide/Views/Main/Index.cshtml" Line="12" Column="1" />
-      <File FileName="AlgorithmDecide/Models/Employee.cs" Line="14" Column="31" />
-      <File FileName="AlgorithmDecide/Data/ApplicationDbContext.cs" Line="7" Column="45" />
-      <File FileName="AlgorithmDecide/Models/Insurance.cs" Line="8" Column="9" />
-      <File FileName="AlgorithmDecide/Migrations/20220516232638_DefaultValueGender.Designer.cs" Line="1" Column="1" />
-      <File FileName="AlgorithmDecide/Migrations/20220516222054_NewColumnGender.cs" Line="1" Column="1" />
-      <File FileName="AlgorithmDecide/Migrations/20220516232638_DefaultValueGender.cs" Line="1" Column="1" />
+      <File FileName="AlgorithmDecide/Controllers/HomeController.cs" IsPinned="True" />
+      <File FileName="AlgorithmDecide/Controllers/MainController.cs" />
+      <File FileName="AlgorithmDecide/Views/Main/Index.cshtml" Line="5" Column="2" />
+      <File FileName="AlgorithmDecide/Data/ApplicationDbContext.cs" />
+      <File FileName="AlgorithmDecide/Models/Insurance.cs" />
+      <File FileName="AlgorithmDecide/Migrations/20220516232638_DefaultValueGender.Designer.cs" />
+      <File FileName="AlgorithmDecide/Services/Interface/IInsuranceInterface.cs" />
+      <File FileName="AlgorithmDecide/appsettings.json" />
+      <File FileName="AlgorithmDecide/Models/EmployeeInsurance.cs" />
+      <File FileName="AlgorithmDecide/Models/Employee.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,17 +20,15 @@
             <Node name="AlgorithmDecide" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
-              <Node name="Migrations" expanded="True">
-                <Node name="20220516232638_DefaultValueGender.cs" expanded="True">
-                  <Node name="20220516232638_DefaultValueGender.Designer.cs" selected="True" />
-                </Node>
-              </Node>
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Interface" expanded="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Main" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Main" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

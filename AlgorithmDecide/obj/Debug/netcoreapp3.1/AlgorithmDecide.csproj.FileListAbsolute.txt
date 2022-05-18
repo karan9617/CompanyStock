@@ -92,4 +92,3 @@
 /Users/karanvishwakarma/Projects/AlgorithmDecide/AlgorithmDecide/obj/Debug/netcoreapp3.1/Razor/Views/Home/Register.cshtml.g.cs
 /Users/karanvishwakarma/Projects/AlgorithmDecide/AlgorithmDecide/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LayoutForMainPage.cshtml.g.cs
 /Users/karanvishwakarma/Projects/AlgorithmDecide/AlgorithmDecide/obj/Debug/netcoreapp3.1/Razor/Views/Main/Index.cshtml.g.cs
-/Users/karanvishwakarma/Projects/AlgorithmDecide/AlgorithmDecide/bin/Debug/netcoreapp3.1/AlgorithmDecide

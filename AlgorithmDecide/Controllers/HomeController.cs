@@ -33,6 +33,7 @@ namespace AlgorithmDecide.Controllers
         {
             
             Employee employeeToFind1 = applicationDbContext.Employees.FirstOrDefault(employee => employee.FirstName == username);
+            
             if (employeeToFind1 == null)
             {
                 return Content("not found");
@@ -40,7 +41,7 @@ namespace AlgorithmDecide.Controllers
             }
             else
             {
-                return View("~/Views/Main/Index.cshtml",employeeToFind1);
+                return View("~/Views/Main/Index.cshtml");
             }
             
         }
@@ -52,8 +53,12 @@ namespace AlgorithmDecide.Controllers
             employeeToInsert.LastName = lastName;
             employeeToInsert.Address = Address;
             employeeToInsert.Salary = Int32.Parse(salary);
+            Insurance EmployeeInsuranceObj = new Insurance();
+            EmployeeInsuranceObj.InsuranceName = "GetHealthInsurance";
+            EmployeeInsuranceObj.PercentageTax = 2324;
+            employeeToInsert.EmployeeInsurance = EmployeeInsuranceObj;
+
             applicationDbContext.Add(employeeToInsert);
-           
             await applicationDbContext.SaveChangesAsync();
 
 
