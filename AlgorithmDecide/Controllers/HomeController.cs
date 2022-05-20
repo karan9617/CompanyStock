@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using AlgorithmDecide.Models;
 using AlgorithmDecide.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace AlgorithmDecide.Controllers
 {
@@ -15,11 +17,18 @@ namespace AlgorithmDecide.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private ApplicationDbContext applicationDbContext;
+
+        [ActivatorUtilitiesConstructor]
         public HomeController(ILogger<HomeController> logger,ApplicationDbContext applicationDbContext)
         {
             _logger = logger;
             this.applicationDbContext = applicationDbContext;
         }
+
+        public HomeController() : this((null),new ApplicationDbContext(new DbContextOptions<ApplicationDbContext>()))
+        {
+        }
+
         [HttpGet]
         public IActionResult Index()
         {

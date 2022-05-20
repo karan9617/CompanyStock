@@ -1,33 +1,41 @@
 ﻿<Properties StartupConfiguration="{95DF73E4-A2BB-42AE-A3E6-49D3E9490DB5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmDecide/Views/Main/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AlgorithmDecide/Controllers/MainController.cs">
     <Files>
-      <File FileName="AlgorithmDecide/Startup.cs" Line="29" Column="67" IsPinned="True" />
-      <File FileName="AlgorithmDecide/Controllers/HomeController.cs" IsPinned="True" />
-      <File FileName="AlgorithmDecide/Controllers/MainController.cs" />
-      <File FileName="AlgorithmDecide/Views/Main/Index.cshtml" Line="5" Column="2" />
-      <File FileName="AlgorithmDecide/Data/ApplicationDbContext.cs" />
-      <File FileName="AlgorithmDecide/Models/Insurance.cs" />
-      <File FileName="AlgorithmDecide/Migrations/20220516232638_DefaultValueGender.Designer.cs" />
-      <File FileName="AlgorithmDecide/Services/Interface/IInsuranceInterface.cs" />
+      <File FileName="AlgorithmDecide/Controllers/HomeController.cs" Line="21" Column="30" IsPinned="True" />
+      <File FileName="AlgorithmDecide/Controllers/MainController.cs" Line="54" Column="10" />
+      <File FileName="AlgorithmDecide/Views/Main/Index.cshtml" Line="49" Column="16" />
+      <File FileName="AlgorithmDecide/Data/ApplicationDbContext.cs" Line="9" Column="37" />
       <File FileName="AlgorithmDecide/appsettings.json" />
-      <File FileName="AlgorithmDecide/Models/EmployeeInsurance.cs" />
-      <File FileName="AlgorithmDecide/Models/Employee.cs" />
+      <File FileName="AlgorithmDecide/Controllers/TestControllers/HomeControllerTest.cs" />
+      <File FileName="AlgorithmDecide.Test/UnitTest1.cs" Line="14" Column="39" />
+      <File FileName="AlgorithmDecide/Properties/launchSettings.json" Line="5" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AlgorithmDecide" expanded="True">
             <Node name="AlgorithmDecide" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="Interface" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="MainController.cs" selected="True" />
               </Node>
+              <Node name="Data" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-                <Node name="Main" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+                <Node name="Main" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="AlgorithmDecide.Test" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="AlgorithmDecide" expanded="True">
+            <Node name="AlgorithmDecide.Test" expanded="True">
+              <Node name="AlgorithmDecide.Test" expanded="True">
+                <Node name="HomeControllerTest" expanded="True">
+                  <Node name="TestingViewForIndex" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -40,7 +48,9 @@
   <MonoDevelop.Ide.ItemProperties.AlgorithmDecide PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/karanvishwakarma/Projects/AlgorithmDecide/AlgorithmDecide/Controllers/MainController.cs" relfile="AlgorithmDecide/Controllers/MainController.cs" line="21" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

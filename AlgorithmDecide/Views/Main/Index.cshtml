@@ -7,32 +7,49 @@
 
 
 <h1>
-    Hello 
+    Hello
 </h1>
+<div class="row">
+    <div class="col-md-6">
+        <div class="row">
+            @using (Html.BeginForm("Index", "Main", FormMethod.Post))
+            {
+                <h3>Get Employee Insurance details</h3>
+                <br />
 
-@using (Html.BeginForm("Index", "Main", FormMethod.Post))
-{
-    <h3>Get Employee Insurance details</h3>
-    <br />
+                <p>Employee Name:</p>
+                <br />
+                <input type="text" name="EmployeeName" placeholder="Employee name" />
+                <br />
+                <input type="submit" value="Get details" />
+            }
+        </div>
+        <div class="row">
+            @if (ViewData["result"] != null)
+            {
+                <table>
+                    @foreach (EmployeeInsurance obj in (List<EmployeeInsurance>)ViewData["result"])
+                    {
 
-    <p>Employee Name:</p>
-    <br />
-    <input type="text" name="EmployeeName" placeholder="Employee name" />
-    <br />
-    <input type="submit" value="Get details" />
-}
-@if (ViewData["result"] != null)
-{
-<table>
-    @foreach (EmployeeInsurance obj in (List<EmployeeInsurance>)ViewData["result"])
-    {
+                        <tr>
+                            <td>@obj.EmployeeName</td>
+                            <td>@obj.Salary</td>
+                            <td>@obj.InsuranceName</td>
+                        </tr>
 
-        <tr>
-            <td>@obj.EmployeeName</td>
-            <td>@obj.Salary</td>
-            <td>@obj.InsuranceName</td>
-        </tr>
+                    }
+                </table>
+            }
 
-    }
-</table>
-}
+        </div>
+    </div>
+    <div class="col-md-6">
+        @using (Html.BeginForm("Index", "Main", FormMethod.Post))
+        {
+            <input type="submit" value="Get details" />
+        }
+    </div>
+</div>
+
+
+
